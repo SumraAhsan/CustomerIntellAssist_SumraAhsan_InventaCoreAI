@@ -1,0 +1,12 @@
+{
+  "name": "Customer IntellAssist",
+  "short_name": "IntellAssist",
+  "description": "Intelligent customer service and case resolution platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F3F6FB",
+  "theme_color": "#0B2559",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

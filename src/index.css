@@ -1,0 +1,41 @@
+@import '@fontsource/lexend/500.css';
+@import '@fontsource/lexend/600.css';
+@import '@fontsource/lexend/700.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { @apply scroll-smooth; }
+  body {
+    @apply font-body text-ink bg-surface-bg dark:bg-surface-dark dark:text-slate-100 antialiased;
+  }
+  h1, h2, h3, h4 { @apply font-display; }
+  ::selection { @apply bg-accent/30; }
+
+  :focus-visible {
+    outline: 2px solid #F2994A;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { @apply bg-ink-faint/40 rounded-full; }
+  .card { @apply bg-surface-card dark:bg-surface-darkcard rounded-xl2 shadow-card border border-black/[0.04] dark:border-white/[0.06]; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
