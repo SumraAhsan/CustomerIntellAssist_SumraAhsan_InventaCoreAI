@@ -70,6 +70,7 @@ intelligence engine, the SLA engine, and the full case lifecycle end to end.
 
 ## Team
 
-Solo build — Sumra Ahsan, ML Engineering Intern, InventaCore AI Internship Program 2026. Designed
+Solo build — Sumra Ahsan, AI Intern, InventaCore AI Internship Program 2026. Designed
 and implemented the intelligence engine, SLA and routing logic, the full data layer, and the
 interface.
+Email: sumraahsan001@gmail.com
