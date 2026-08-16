@@ -183,4 +183,4 @@ SPA routing on refresh is handled by the included `public/_redirects` and `netli
 
 ## 13. Team
 
-Solo build — Shine, ML Engineering Intern, InventaCore AI Internship Program 2026.
+Solo build — Sumra Ahsan, AI Intern, InventaCore AI Internship Program 2026.
